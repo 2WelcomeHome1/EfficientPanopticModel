@@ -2,7 +2,7 @@
 Модель паноптической сегментации (Иллюстрация статьи)
 
 ----
-### Установка YOLOv7 и Pytorch
+### Установка Pytorch
 - ! pip install pyyaml==5.1
 - ! pip install 'git+https://github.com/facebookresearch/detectron2.git'
 - ! pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 -f https://download.pytorch.org/whl/torch_stable.html
