@@ -3,13 +3,9 @@
 
 ----
 ### Установка YOLOv7 и Pytorch
-- ! git clone -b mask https://github.com/WongKinYiu/yolov7.git
 - ! pip install pyyaml==5.1
 - ! pip install 'git+https://github.com/facebookresearch/detectron2.git'
 - ! pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 -f https://download.pytorch.org/whl/torch_stable.html
-- %cd yolov7
-- ! curl -L https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-mask.pt -o yolov7-mask.pt
-
 ----
 Для усовершенствования и увеличения точности работы модели было принято решение взять за основу методологию разработки наиболее эффективных алгоритмов паноптической сегментации и заменить структурные части более продвинутыми, что позволило составить единый алгоритм, способный устранить все недостатки предыдущих поколений. 
 Таким образом была разработана структурная схема алгоритма паноптической сегментации «EfficientPanopticModel», представленная на рисунке 1.
